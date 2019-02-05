@@ -35,6 +35,19 @@ public class Review {
 
     }
 
+    // Extra points exercise
+
+    public List<Integer> numberList () {
+        List<Integer> numbers = new ArrayList<Integer>();
+        for (int result = start; result < end; result++) {
+            numbers.add(result);
+        }
+        System.out.println("Printing include start and exclude end:");
+        System.out.println(numbers);
+        return numbers;
+
+    }
+
     public int getStart() {
         return start;
     }

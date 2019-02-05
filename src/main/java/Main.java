@@ -12,6 +12,11 @@ public class Main {
         r.printNumbersStartToEnd();
         r.listNumbersStartToEnd();
 
+        r.setStart(3);
+        r.setEnd(7);
+
+        r.numberList();
+
 
     }
 }
